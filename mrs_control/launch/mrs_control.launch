@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="spawn_drone" default="true" />
+	<node pkg="mrs_control" name="mrs_control" type="mrs_control.py" output="screen">
+	</node>
+</launch>
